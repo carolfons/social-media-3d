@@ -5,9 +5,7 @@ body {
 
 }
 
-
 .list {
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -159,4 +157,25 @@ ul li:hover:nth-child(4) a:before {
 
 ul li:hover:nth-child(4) a:after {
     background: #e46880;
+}
+
+/*--------------responsividade----------*/
+
+@media only screen and (max-width:650px){
+
+    .title h1{
+        font-size: 30px;
+    }
+
+     ul{
+        display: block;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    ul li {
+        margin: 60px 40px;
+    }
+
 }
