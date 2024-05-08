@@ -172,13 +172,13 @@ ul li:hover:nth-child(4) a:after {
 
 /*--------------responsividade----------*/
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:700px){
     .title{
-        margin-top: auto;
+        margin-top: 10%;
     }
 
     .title h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 
      ul{
