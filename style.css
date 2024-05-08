@@ -17,6 +17,7 @@ body {
     justify-content: center;
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .title h1 {
@@ -30,6 +31,7 @@ body {
 
 .title h1:hover {
     box-shadow: -20px 20px 10px rgba(0, 0, 0, .3);
+    transform:  translate(-10px, -10px);
 }
 
 span {
