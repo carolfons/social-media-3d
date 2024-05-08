@@ -173,6 +173,9 @@ ul li:hover:nth-child(4) a:after {
 /*--------------responsividade----------*/
 
 @media only screen and (max-width:650px){
+    .title{
+        margin-top: auto;
+    }
 
     .title h1{
         font-size: 30px;
@@ -186,7 +189,10 @@ ul li:hover:nth-child(4) a:after {
     }
 
     ul li {
-        margin: 60px 40px;
+        margin: 60px;  
     }
-
+    
+    .list{
+        margin-top: 10%;
+    }
 }
